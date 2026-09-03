@@ -1,89 +1,927 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Behnush Kiani | AI & Machine Learning Portfolio</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Behnush Kiani - AI, Machine Learning, Data Science and LLM Portfolio">
+
+    <title>Behnush Kiani | AI & Machine Learning Engineer</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
-    <h1>Behnush Kiani</h1>
 
-    <h2>AI | Machine Learning | Data Science | LLM Applications</h2>
+<!-- =========================
+     NAVIGATION
+========================= -->
 
-    <p>
-        Welcome to my portfolio. I hold an MSc in Computer Science and have
-        hands-on experience in machine learning, deep learning, computer vision,
-        large language models, and data analytics.
+<nav class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            BK<span>.</span>
+        </a>
+
+        <div class="nav-links">
+
+            <a href="#about">About</a>
+
+            <a href="#projects">Projects</a>
+
+            <a href="#research">Research</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#experience">Experience</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="hero-label">
+            AI • MACHINE LEARNING • DATA SCIENCE
+        </p>
+
+        <h1>
+            Hi, I'm
+            <span>Behnush Kiani</span>
+        </h1>
+
+        <h2>
+            AI & Machine Learning Engineer
+        </h2>
+
+
+        <p class="hero-description">
+
+            I build intelligent AI and machine learning systems
+            using deep learning, large language models,
+            Retrieval-Augmented Generation (RAG),
+            computer vision, and production-ready ML technologies.
+
+        </p>
+
+
+        <div class="hero-tech">
+
+            <span>Python</span>
+
+            <span>PyTorch</span>
+
+            <span>LLMs</span>
+
+            <span>RAG</span>
+
+            <span>FastAPI</span>
+
+            <span>Docker</span>
+
+        </div>
+
+
+        <div class="hero-buttons">
+
+            <a href="#projects"
+               class="btn btn-primary">
+
+                View My Projects
+
+            </a>
+
+
+            <a href="https://github.com/Behnushkiani"
+               target="_blank"
+               class="btn btn-secondary">
+
+                GitHub Profile
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual">
+
+        <div class="ai-card">
+
+            <div class="ai-card-top">
+
+                <span class="status-dot"></span>
+
+                AI / ML SYSTEM
+
+            </div>
+
+
+            <div class="code-line">
+                <span>01</span>
+                data = load_data()
+            </div>
+
+            <div class="code-line">
+                <span>02</span>
+                model = train_model(data)
+            </div>
+
+            <div class="code-line">
+                <span>03</span>
+                api = FastAPI()
+            </div>
+
+            <div class="code-line">
+                <span>04</span>
+                deploy(model)
+            </div>
+
+            <div class="code-line highlight-line">
+                <span>05</span>
+                prediction = AI()
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     ABOUT
+========================= -->
+
+<section class="section" id="about">
+
+    <p class="section-label">
+        ABOUT ME
     </p>
 
-    <p>
-        My work includes building  AI and machine learning solutions
-        using Python, PyTorch, scikit-learn, FastAPI, Docker, Streamlit, LLMs,
-        Retrieval-Augmented Generation (RAG), LangChain, embeddings, and vector
-        databases. I also have several years of industry experience working with
-        enterprise data, SQL, ERP systems, analytics, and business applications.
+    <h2 class="section-title">
+        Building AI systems from data to deployment.
+    </h2>
+
+
+    <div class="about-grid">
+
+
+        <div class="about-text">
+
+            <p>
+
+                I hold an MSc in Computer Science and have hands-on
+                experience in machine learning, deep learning,
+                computer vision, large language models,
+                Retrieval-Augmented Generation, and data analytics.
+
+            </p>
+
+
+            <p>
+
+                My work includes building end-to-end machine learning
+                pipelines using Python, PyTorch, scikit-learn,
+                FastAPI, Docker, Streamlit, LangChain,
+                embeddings, and vector databases.
+
+            </p>
+
+
+            <p>
+
+                I also have several years of industry experience
+                working with enterprise data, SQL, ERP systems,
+                analytics, and business applications.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="about-stats">
+
+            <div class="stat-card">
+
+                <h3>MSc</h3>
+
+                <p>Computer Science</p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <h3>AI</h3>
+
+                <p>Machine Learning & LLMs</p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <h3>ML</h3>
+
+                <p>End-to-End Systems</p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <h3>Data</h3>
+
+                <p>Enterprise Analytics</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     PROJECTS
+========================= -->
+
+<section class="section" id="projects">
+
+
+    <p class="section-label">
+        FEATURED WORK
     </p>
 
-    <h2>Projects</h2>
+    <h2 class="section-title">
+        Projects
+    </h2>
 
-    <h3>Support Ticket Priority Prediction</h3>
-    <p>
-        Developed machine learning application to predict support
-        ticket priority using customer-impact, operational, and organizational
-        features. Built the prediction pipeline in Python using Random Forest,
-        exposed the model through a FastAPI REST API, containerized the service
-        with Docker, and developed an interactive Streamlit interface for
-        real-time predictions.
+
+    <p class="section-description">
+
+        Selected projects demonstrating machine learning,
+        AI engineering, data science,
+        computer vision, and production deployment.
+
     </p>
 
-    <h3>LLM and Retrieval-Augmented Generation Applications</h3>
-    <p>
-        Built AI applications using Large Language Models, Retrieval-Augmented
-        Generation (RAG), LangChain, embeddings, and vector databases. Developed
-        retrieval pipelines to search relevant information, provide contextual
-        input to LLMs, and generate more accurate and grounded responses.
-        Explored document processing, semantic search, prompt design, and
-        end-to-end LLM application workflows.
+
+
+    <div class="projects-grid">
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card featured-project">
+
+            <div class="project-number">
+                01
+            </div>
+
+            <p class="project-category">
+                MACHINE LEARNING SYSTEM
+            </p>
+
+            <h3>
+                Support Ticket Priority Prediction
+            </h3>
+
+
+            <p>
+
+                Developed an end-to-end machine learning application
+                to predict support ticket priority using
+                customer-impact, operational, and organizational
+                features.
+
+            </p>
+
+
+            <p>
+
+                Built the prediction pipeline using Random Forest,
+                exposed predictions through FastAPI,
+                containerized the service with Docker,
+                and created an interactive Streamlit interface.
+
+            </p>
+
+
+            <div class="tech-stack">
+
+                <span>Python</span>
+
+                <span>Random Forest</span>
+
+                <span>FastAPI</span>
+
+                <span>Docker</span>
+
+                <span>Streamlit</span>
+
+            </div>
+
+
+            <div class="project-links">
+
+                <a href="https://github.com/Behnushkiani/support-ticket-priority-prediction"
+                   target="_blank">
+
+                    View on GitHub →
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                02
+            </div>
+
+            <p class="project-category">
+                AGENTIC AI
+            </p>
+
+            <h3>
+                Agentic AI / ML Platform
+            </h3>
+
+
+            <p>
+
+                Built an AI platform combining machine learning,
+                computer vision, OCR, AI routing,
+                document understanding, and automated risk analysis.
+
+            </p>
+
+
+            <p>
+
+                The system integrates multiple AI components
+                into a unified workflow for intelligent
+                document and safety analysis.
+
+            </p>
+
+
+            <div class="tech-stack">
+
+                <span>LLMs</span>
+
+                <span>YOLO</span>
+
+                <span>OCR</span>
+
+                <span>AI Agents</span>
+
+                <span>Python</span>
+
+            </div>
+
+
+            <div class="project-links">
+
+                <a href="https://github.com/Behnushkiani/agentic-ml-platform"
+                   target="_blank">
+
+                    View on GitHub →
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                03
+            </div>
+
+            <p class="project-category">
+                MACHINE LEARNING
+            </p>
+
+            <h3>
+                Late Delivery Risk Prediction
+            </h3>
+
+
+            <p>
+
+                Developed a machine learning pipeline
+                to predict delivery risk using advanced
+                gradient boosting models and explainable AI.
+
+            </p>
+
+
+            <div class="tech-stack">
+
+                <span>XGBoost</span>
+
+                <span>LightGBM</span>
+
+                <span>Optuna</span>
+
+                <span>SHAP</span>
+
+                <span>Python</span>
+
+            </div>
+
+
+            <div class="project-links">
+
+                <a href="https://github.com/Behnushkiani/Late-Delivery-Risk-Prediction-"
+                   target="_blank">
+
+                    View on GitHub →
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 4 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                04
+            </div>
+
+            <p class="project-category">
+                COMPUTER VISION
+            </p>
+
+            <h3>
+                PPE Detection Using YOLO
+            </h3>
+
+
+            <p>
+
+                Built a computer vision system using YOLO
+                to detect personal protective equipment
+                such as helmets and safety vests
+                in workplace images.
+
+            </p>
+
+
+            <div class="tech-stack">
+
+                <span>YOLO</span>
+
+                <span>Computer Vision</span>
+
+                <span>OpenCV</span>
+
+                <span>Python</span>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     RESEARCH
+========================= -->
+
+<section class="section research-section"
+         id="research">
+
+
+    <p class="section-label">
+        MSc RESEARCH
     </p>
 
-    <h3>Fractal Parameter Estimation Using Deep Learning</h3>
-    <p>
-        Developed deep learning models to estimate fractal transformation
-        parameters directly from generated images. Used PyTorch with pretrained
-        CNN architectures including ResNet and VGG, created synthetic fractal
-        datasets, and evaluated regression performance using R² and MSE.
-        The project involved image generation, preprocessing, model training,
-        cross-validation, and statistical analysis.
+
+    <h2 class="section-title">
+
+        Generative Parameter Estimation
+        for Fractal Images
+
+    </h2>
+
+
+    <div class="research-card">
+
+
+        <div class="research-content">
+
+            <p>
+
+                Developed deep learning models to estimate
+                fractal transformation parameters directly
+                from generated images.
+
+            </p>
+
+
+            <p>
+
+                The research uses pretrained convolutional
+                neural networks including ResNet and VGG
+                for regression-based parameter estimation.
+
+            </p>
+
+
+            <div class="tech-stack">
+
+                <span>PyTorch</span>
+
+                <span>ResNet</span>
+
+                <span>VGG</span>
+
+                <span>CNN</span>
+
+                <span>Computer Vision</span>
+
+                <span>Regression</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="research-metric">
+
+            <span>
+                Research Focus
+            </span>
+
+            <strong>
+                Deep Learning + Fractals
+            </strong>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     SKILLS
+========================= -->
+
+<section class="section" id="skills">
+
+
+    <p class="section-label">
+        TECHNOLOGY STACK
     </p>
 
-    <h3>PPE Detection Using YOLO</h3>
-    <p>
-        Built a computer vision system using YOLO to detect personal protective
-        equipment such as helmets and safety vests in workplace images.
-        The project included object detection, dataset preparation, model
-        training, evaluation, and integration into a broader AI-based safety
-        analysis workflow.
+
+    <h2 class="section-title">
+        Technical Skills
+    </h2>
+
+
+
+    <div class="skills-grid">
+
+
+        <div class="skill-card">
+
+            <h3>
+                Machine Learning
+            </h3>
+
+            <div class="skill-tags">
+
+                <span>scikit-learn</span>
+
+                <span>XGBoost</span>
+
+                <span>LightGBM</span>
+
+                <span>Random Forest</span>
+
+                <span>SHAP</span>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <h3>
+                Deep Learning
+            </h3>
+
+            <div class="skill-tags">
+
+                <span>PyTorch</span>
+
+                <span>TensorFlow</span>
+
+                <span>CNN</span>
+
+                <span>ResNet</span>
+
+                <span>VGG</span>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <h3>
+                Generative AI
+            </h3>
+
+            <div class="skill-tags">
+
+                <span>LLMs</span>
+
+                <span>RAG</span>
+
+                <span>LangChain</span>
+
+                <span>Embeddings</span>
+
+                <span>Vector Databases</span>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <h3>
+                AI Engineering
+            </h3>
+
+            <div class="skill-tags">
+
+                <span>FastAPI</span>
+
+                <span>Docker</span>
+
+                <span>Streamlit</span>
+
+                <span>Git</span>
+
+                <span>GitHub</span>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <h3>
+                Data
+            </h3>
+
+            <div class="skill-tags">
+
+                <span>Python</span>
+
+                <span>SQL</span>
+
+                <span>Pandas</span>
+
+                <span>NumPy</span>
+
+                <span>Tableau</span>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <h3>
+                Computer Vision
+            </h3>
+
+            <div class="skill-tags">
+
+                <span>YOLO</span>
+
+                <span>OpenCV</span>
+
+                <span>Image Processing</span>
+
+                <span>Object Detection</span>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     EXPERIENCE
+========================= -->
+
+<section class="section" id="experience">
+
+
+    <p class="section-label">
+        EXPERIENCE
     </p>
 
-    <h3>Enterprise Data Analytics</h3>
-    <p>
-        Worked with large enterprise datasets across sales, inventory, finance,
-        procurement, operations, and HR systems. Used Python, SQL, Pandas,
-        visualization tools, and statistical analysis to extract insights,
-        improve data quality, support business decisions, and develop analytical
-        solutions for enterprise clients.
+
+    <h2 class="section-title">
+        Enterprise Data & Analytics
+    </h2>
+
+
+    <div class="experience-card">
+
+
+        <div>
+
+            <p class="experience-company">
+                Hamkaran System
+            </p>
+
+            <h3>
+                Data Analyst
+            </h3>
+
+        </div>
+
+
+        <div class="experience-description">
+
+            <p>
+
+                Worked with large enterprise datasets
+                across sales, inventory, finance,
+                procurement, operations, and HR systems.
+
+            </p>
+
+
+            <p>
+
+                Used Python, SQL, analytics,
+                data validation, visualization,
+                and statistical methods
+                to support enterprise clients
+                and business decision-making.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section class="section contact-section"
+         id="contact">
+
+
+    <p class="section-label">
+        CONTACT
     </p>
 
-    <h2>Technical Skills</h2>
+
+    <h2>
+
+        Interested in AI,
+        Machine Learning,
+        or Data Science?
+
+    </h2>
+
 
     <p>
-        Python, SQL, PyTorch, TensorFlow, scikit-learn, Pandas, NumPy, OpenCV,
-        YOLO, XGBoost, LightGBM, LLMs, RAG, LangChain, Vector Databases,
-        FastAPI, Docker, Streamlit, Git, GitHub, Tableau, SSRs.
+
+        Explore my work on GitHub
+        and feel free to connect with me.
+
     </p>
+
+
+    <div class="contact-buttons">
+
+
+        <a href="https://github.com/Behnushkiani"
+           target="_blank"
+           class="btn btn-primary">
+
+            GitHub
+
+        </a>
+
+
+        <a href="#home"
+           class="btn btn-secondary">
+
+            Back to Top ↑
+
+        </a>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <p>
+
+        © 2026 Behnush Kiani
+
+    </p>
+
+
+    <p>
+
+        AI • Machine Learning • Data Science
+
+    </p>
+
+</footer>
+
 
 </body>
+
 </html>
